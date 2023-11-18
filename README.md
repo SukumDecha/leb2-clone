@@ -2,7 +2,7 @@
 
 ## Pages done:
 - Main page 
+- What is LEB2 
+- LEB2 Support
 
 ## Todo pages:
-- What is LEB2 [x]
-- LEB2 Support [x]
