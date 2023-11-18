@@ -8,7 +8,7 @@
   padding: 2em 5em;
   margin-bottom: 0;
   width: auto;
-  height: 35em;
+  height: 38em;
 
   & * {
     border-radius: 15px;
@@ -142,7 +142,7 @@
     & .check-list,
     & .announcement {
       position: relative;
-      height: 386px;
+      height: 50%;
 
       & .desc-div {
         display: none;
@@ -352,6 +352,10 @@
 
       @media screen and (max-width: 428px) {
         display: none;
+      }
+
+      &:hover {
+        cursor: pointer;
       }
     }
   }
