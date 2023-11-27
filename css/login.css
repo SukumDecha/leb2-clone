@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: "DB Helvethaica X", sans-serif;
   font-size: 1.25rem;
   line-height: 1.1;
@@ -12,11 +13,10 @@ body {
 }
 
 .page-login {
-  margin: 0;
-  padding: 0 10%;
   width: 100%;
-  height: 100%;
-  background: url(../images/login/login-1.jpg) center 100% / cover no-repeat fixed;
+  border: 2px solid red;
+  height: 50rem;
+  background: url(../images/login/login-1.jpg) center 100% / cover no-repeat;
 
   @media screen and (max-width: 428px) {
     padding: 0;
@@ -27,9 +27,11 @@ body {
   flex-direction: column;
   display: flex;
   background-color: rgba(50, 60, 71, 0.89);
-  height: auto;
+  height: 100%;
   width: 31%;
   margin-left: 8%;
+  margin-bottom: 0;
+  padding-bottom: 0;
   align-items: center;
   vertical-align: middle;
   color: #fff;
@@ -52,7 +54,8 @@ body {
 
   @media screen and (max-width: 428px) {
     width: 80%;
-  } 
+  }
+
   & img {
     width: 80%;
     margin-top: 3.5em;
@@ -171,5 +174,5 @@ a {
   display: none;
   @media screen and (max-width: 428px) {
     display: block;
-  } 
+  }
 }

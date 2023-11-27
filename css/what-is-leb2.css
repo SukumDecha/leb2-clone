@@ -234,7 +234,6 @@
       max-width: 100%;
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
       font-weight: bold;
 
       @media screen and (max-width: 428px) {
