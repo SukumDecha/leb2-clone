@@ -14,7 +14,6 @@ body {
 
 .page-login {
   width: 100%;
-  border: 2px solid red;
   height: 50rem;
   background: url(../images/login/login-1.jpg) center 100% / cover no-repeat;
 
