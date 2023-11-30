@@ -77,15 +77,13 @@
 .about-us {
   width: 70%;
   margin: auto;
-  
 }
-
-
 
 .title-us {
   text-align: center;
 }
 
+/* When hover the item in about-us div*/
 .item:hover {
   cursor: pointer;
 }
@@ -103,6 +101,8 @@
   height: auto;
   margin-bottom: .5em;
 }
+
+/* div that cover img and detail of gallery */
 .items-container .item {
   width: auto;
 }

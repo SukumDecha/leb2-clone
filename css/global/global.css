@@ -342,7 +342,9 @@ img {
   padding-left: 35px;
   padding-right: 35px;
   cursor: pointer;
-  padding-top: 66%;
+  margin-top: 66%;
+
+
   font-family: Prompt, sans-serif;
 
   & * {
@@ -402,7 +404,7 @@ img {
   padding-left: 35px;
   padding-right: 35px;
   cursor: pointer;
-  padding-top: 66%;
+  margin-top: 66%;
   font-family: Prompt, sans-serif;
   color: black;
   background-color: white;
